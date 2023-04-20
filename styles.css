@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#hero-section {
+  background: linear-gradient(rgb(103, 96, 96), rgba(200, 174, 219, 0)),
+    url("https://media2.giphy.com/media/wh2HVFcvHy4JOxSh7s/giphy.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.logo {
+  color: #e09f3e;
+  font-size: 3rem;
+  font-style: italic;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 4rem 10% 0px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem 3rem;
+  font-size: 1.8rem;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: rgb(248, 249, 249);
+  cursor: pointer;
+  font-size: 700;
+  transition: color 5s;
+}
+
+a:hover {
+  color: #b6b2a9;
+}
